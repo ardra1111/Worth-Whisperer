@@ -38,7 +38,7 @@ def main():
         predicted_price = predict_price(input_array)
 
         # Display predicted price
-        st.write(f'The predicted price of the house is ${predicted_price[0]:,.2f} thousand')
+        st.header(f'The predicted price of the house is ${predicted_price[0]:,.2f} thousand')
 
 
 if __name__ == '__main__':
